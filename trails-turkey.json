@@ -1,0 +1,1905 @@
+{
+  "meta": {
+    "schema_version": "1.0",
+    "updated_at": "2026-11-18",
+    "locale": "tr-TR",
+    "currency": "TRY",
+    "coverage": "Turkey, 12 months",
+    "hiking_season_disclaimer_tr": "Mevsimler genel iklime göre; güvenli erişim, kar, orman yangını kısıtları, milli park izinleri, kapanma ve hava durumu ayrıca doğrulanmalıdır.",
+    "metric_disclaimer_tr": "Türkiye rotalarındaki mesafe ve yükselme değerleri, özellikle planlama_estimate olarak işaretlenenlerde, doğrulanmış GPX ölçümü değildir; örnek varyant hedefidir. Bilinmeyenler null.",
+    "lodging_disclaimer_tr": "2026 sonu/2027 için canlı sorgu olmaksızın tahmini TL bütçe aralıklarıdır. İki kişi toplam, tek özel oda, bir gece; yemek/ulaşım/vergiler/park giriş ücretleri hariç.",
+    "difficulty_formula": "distance_km + elevation_gain_m/100; easy <13, moderate 13–<22, hard >=22; technical_risk must be displayed separately",
+    "source_policy": "Sources may describe a region or long-distance network rather than each proposed daily variant. Verify trail exact variants before publishing as navigable hikes.",
+    "photo_policy": "Only Commons search text is provided. Do not embed random search results without checking subject, attribution and reuse terms.",
+    "geo_policy": "Trailhead markers only; not GPX. Never connect map pins into a fake hiking path."
+  },
+  "regions": [
+    {
+      "id": "tr_marmara",
+      "label_tr": "Marmara / İstanbul / Bursa",
+      "legacy_area": "turkey"
+    },
+    {
+      "id": "tr_black_sea_west",
+      "label_tr": "Batı Karadeniz / Bolu",
+      "legacy_area": "turkey"
+    },
+    {
+      "id": "tr_aegean",
+      "label_tr": "Ege / Kazdağları / Karia",
+      "legacy_area": "turkey"
+    },
+    {
+      "id": "tr_mediterranean",
+      "label_tr": "Akdeniz / Likya / Antalya",
+      "legacy_area": "turkey"
+    },
+    {
+      "id": "tr_central",
+      "label_tr": "İç Anadolu / Kapadokya",
+      "legacy_area": "turkey"
+    },
+    {
+      "id": "tr_black_sea_east",
+      "label_tr": "Doğu Karadeniz / Kaçkarlar",
+      "legacy_area": "turkey"
+    },
+    {
+      "id": "tr_east",
+      "label_tr": "Doğu Anadolu",
+      "legacy_area": "turkey"
+    }
+  ],
+  "trails": [
+    {
+      "id": "tr-01",
+      "name": "Belgrad Ormanı – Neşet Suyu ve çevre patikaları",
+      "country": "TR",
+      "area": "turkey",
+      "region": "tr_marmara",
+      "base_town": "Sarıyer, İstanbul",
+      "lat": 41.196,
+      "lon": 28.982,
+      "distance_km": 10,
+      "elevation_gain_m": 120,
+      "metric_status": "planning_estimate",
+      "months_possible": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "months_best": [
+        3,
+        4,
+        5,
+        10,
+        11
+      ],
+      "winter_designated": false,
+      "activities": [
+        "forest",
+        "lake"
+      ],
+      "route_type": "variant_to_verify",
+      "technical_risk": "ordinary_trail",
+      "season_warning_tr": "Yağmurdan sonra çamur; orman yollarında yön ayrımları",
+      "source_url": "https://blog.turkishairlines.com/tr/istanbul-trekking-rotalari/",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Belgrad Ormanı Turkey",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 41.196,
+        "longitude": 28.982,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "TRY",
+        "unit": "private_room_per_night_2_people_total",
+        "min_try": 2100,
+        "max_try": 4600,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": false
+      },
+      "notes_tr": "Konaklama iki kişilik tek oda/gece için planlama tahmini; gerçek rezervasyon fiyatı değildir. Parkur başlangıç işareti yaklaşık, doğrulanmış GPX yok.",
+      "estimated_moving_hours": 3.1,
+      "effort_index": 11.2,
+      "difficulty_by_effort": "easy"
+    },
+    {
+      "id": "tr-02",
+      "name": "Polonezköy Tabiat Parkı – orman yürüyüşü",
+      "country": "TR",
+      "area": "turkey",
+      "region": "tr_marmara",
+      "base_town": "Beykoz, İstanbul",
+      "lat": 41.109,
+      "lon": 29.209,
+      "distance_km": 8,
+      "elevation_gain_m": 150,
+      "metric_status": "planning_estimate",
+      "months_possible": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "months_best": [
+        3,
+        4,
+        5,
+        10,
+        11
+      ],
+      "winter_designated": false,
+      "activities": [
+        "forest"
+      ],
+      "route_type": "variant_to_verify",
+      "technical_risk": "ordinary_trail",
+      "season_warning_tr": "Hafta sonu yoğunluk; yağmur sonrası çamur",
+      "source_url": "https://goturkiye.com/adventure/trekking-and-hiking",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Polonezköy Tabiat Parkı Turkey",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 41.109,
+        "longitude": 29.209,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "TRY",
+        "unit": "private_room_per_night_2_people_total",
+        "min_try": 2300,
+        "max_try": 5200,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": false
+      },
+      "notes_tr": "Konaklama iki kişilik tek oda/gece için planlama tahmini; gerçek rezervasyon fiyatı değildir. Parkur başlangıç işareti yaklaşık, doğrulanmış GPX yok.",
+      "estimated_moving_hours": 2.6,
+      "effort_index": 9.5,
+      "difficulty_by_effort": "easy"
+    },
+    {
+      "id": "tr-03",
+      "name": "Ballıkayalar – vadi çevresi",
+      "country": "TR",
+      "area": "turkey",
+      "region": "tr_marmara",
+      "base_town": "Gebze, Kocaeli",
+      "lat": 40.865,
+      "lon": 29.511,
+      "distance_km": 9,
+      "elevation_gain_m": 250,
+      "metric_status": "planning_estimate",
+      "months_possible": [
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "months_best": [
+        4,
+        5,
+        10,
+        11
+      ],
+      "winter_designated": false,
+      "activities": [
+        "canyon",
+        "rock"
+      ],
+      "route_type": "variant_to_verify",
+      "technical_risk": "exposed_or_slippery",
+      "season_warning_tr": "Dere geçişi ve ıslak kaya riskleri; sağanakta gitmeyin",
+      "source_url": "https://goturkiye.com/adventure/trekking-and-hiking",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Ballıkayalar Turkey",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 40.865,
+        "longitude": 29.511,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "TRY",
+        "unit": "private_room_per_night_2_people_total",
+        "min_try": 2000,
+        "max_try": 4600,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": false
+      },
+      "notes_tr": "Konaklama iki kişilik tek oda/gece için planlama tahmini; gerçek rezervasyon fiyatı değildir. Parkur başlangıç işareti yaklaşık, doğrulanmış GPX yok.",
+      "estimated_moving_hours": 3.1,
+      "effort_index": 11.5,
+      "difficulty_by_effort": "easy"
+    },
+    {
+      "id": "tr-04",
+      "name": "Sülüklügöl – göl ve orman parkurları",
+      "country": "TR",
+      "area": "turkey",
+      "region": "tr_black_sea_west",
+      "base_town": "Mudurnu, Bolu",
+      "lat": 40.553,
+      "lon": 30.877,
+      "distance_km": 11,
+      "elevation_gain_m": 350,
+      "metric_status": "planning_estimate",
+      "months_possible": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "months_best": [
+        5,
+        6,
+        9,
+        10
+      ],
+      "winter_designated": false,
+      "activities": [
+        "lake",
+        "forest"
+      ],
+      "route_type": "variant_to_verify",
+      "technical_risk": "remote_trail",
+      "season_warning_tr": "Kışın yol/erişim ve orman içi buz; off-road yol koşullarını kontrol edin",
+      "source_url": "https://blog.turkishairlines.com/tr/istanbul-trekking-rotalari/",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Sülüklügöl Turkey",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 40.553,
+        "longitude": 30.877,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "TRY",
+        "unit": "private_room_per_night_2_people_total",
+        "min_try": 2300,
+        "max_try": 5000,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": true
+      },
+      "notes_tr": "Konaklama iki kişilik tek oda/gece için planlama tahmini; gerçek rezervasyon fiyatı değildir. Parkur başlangıç işareti yaklaşık, doğrulanmış GPX yok.",
+      "estimated_moving_hours": 3.9,
+      "effort_index": 14.5,
+      "difficulty_by_effort": "moderate"
+    },
+    {
+      "id": "tr-05",
+      "name": "Yedigöller – göller arası günübirlik yürüyüş",
+      "country": "TR",
+      "area": "turkey",
+      "region": "tr_black_sea_west",
+      "base_town": "Yedigöller Milli Parkı, Bolu",
+      "lat": 40.944,
+      "lon": 31.747,
+      "distance_km": 8,
+      "elevation_gain_m": 220,
+      "metric_status": "planning_estimate",
+      "months_possible": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "months_best": [
+        5,
+        6,
+        9,
+        10
+      ],
+      "winter_designated": false,
+      "activities": [
+        "lake",
+        "forest"
+      ],
+      "route_type": "variant_to_verify",
+      "technical_risk": "ordinary_trail",
+      "season_warning_tr": "Sonbahar yağışları, kış yol kapanması ve kaygan ahşap geçişler",
+      "source_url": "https://goturkiye.com/adventure/trekking-and-hiking",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Yedigöller Turkey",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 40.944,
+        "longitude": 31.747,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "TRY",
+        "unit": "private_room_per_night_2_people_total",
+        "min_try": 2600,
+        "max_try": 6000,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": true
+      },
+      "notes_tr": "Konaklama iki kişilik tek oda/gece için planlama tahmini; gerçek rezervasyon fiyatı değildir. Parkur başlangıç işareti yaklaşık, doğrulanmış GPX yok.",
+      "estimated_moving_hours": 2.8,
+      "effort_index": 10.2,
+      "difficulty_by_effort": "easy"
+    },
+    {
+      "id": "tr-06",
+      "name": "Abant – göl çevresi yürüyüşü",
+      "country": "TR",
+      "area": "turkey",
+      "region": "tr_black_sea_west",
+      "base_town": "Abant, Bolu",
+      "lat": 40.605,
+      "lon": 31.28,
+      "distance_km": 7.5,
+      "elevation_gain_m": 90,
+      "metric_status": "planning_estimate",
+      "months_possible": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "months_best": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "winter_designated": false,
+      "activities": [
+        "lake",
+        "forest"
+      ],
+      "route_type": "variant_to_verify",
+      "technical_risk": "ordinary_trail",
+      "season_warning_tr": "Kışın kar/buz olabilir; tam göl halkası parkur durumunu kontrol edin",
+      "source_url": "https://goturkiye.com/adventure/trekking-and-hiking",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Abant Turkey",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 40.605,
+        "longitude": 31.28,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "TRY",
+        "unit": "private_room_per_night_2_people_total",
+        "min_try": 2600,
+        "max_try": 6500,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": true
+      },
+      "notes_tr": "Konaklama iki kişilik tek oda/gece için planlama tahmini; gerçek rezervasyon fiyatı değildir. Parkur başlangıç işareti yaklaşık, doğrulanmış GPX yok.",
+      "estimated_moving_hours": 2.3,
+      "effort_index": 8.4,
+      "difficulty_by_effort": "easy"
+    },
+    {
+      "id": "tr-07",
+      "name": "Uludağ – Sarıalan / Çobankaya yürüyüşü",
+      "country": "TR",
+      "area": "turkey",
+      "region": "tr_marmara",
+      "base_town": "Uludağ, Bursa",
+      "lat": 40.127,
+      "lon": 29.158,
+      "distance_km": 10,
+      "elevation_gain_m": 320,
+      "metric_status": "planning_estimate",
+      "months_possible": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "months_best": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "winter_designated": false,
+      "activities": [
+        "mountain",
+        "forest"
+      ],
+      "route_type": "variant_to_verify",
+      "technical_risk": "mountain_weather",
+      "season_warning_tr": "Aralık–Nisan normal yaz patikası değildir; kışın yalnızca düzenlenmiş parkurlar ve uygun ekipman",
+      "source_url": "https://goturkiye.com/tr/skiing/uludag",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Uludağ Turkey",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 40.127,
+        "longitude": 29.158,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "TRY",
+        "unit": "private_room_per_night_2_people_total",
+        "min_try": 2900,
+        "max_try": 7500,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": true
+      },
+      "notes_tr": "Konaklama iki kişilik tek oda/gece için planlama tahmini; gerçek rezervasyon fiyatı değildir. Parkur başlangıç işareti yaklaşık, doğrulanmış GPX yok.",
+      "estimated_moving_hours": 3.6,
+      "effort_index": 13.2,
+      "difficulty_by_effort": "moderate"
+    },
+    {
+      "id": "tr-08",
+      "name": "Uludağ – Kilimli Göl çevresi",
+      "country": "TR",
+      "area": "turkey",
+      "region": "tr_marmara",
+      "base_town": "Uludağ Göller Bölgesi, Bursa",
+      "lat": 40.096,
+      "lon": 29.21,
+      "distance_km": 12,
+      "elevation_gain_m": 650,
+      "metric_status": "planning_estimate",
+      "months_possible": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "months_best": [
+        7,
+        8,
+        9
+      ],
+      "winter_designated": false,
+      "activities": [
+        "alpine_lake",
+        "mountain"
+      ],
+      "route_type": "variant_to_verify",
+      "technical_risk": "high_alpine",
+      "season_warning_tr": "Yüksek rakım, sis ve yaz başına kalan kar; navigasyon şart",
+      "source_url": "https://goturkiye.com/tr/bursa/gor",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Uludağ Turkey",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 40.096,
+        "longitude": 29.21,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "TRY",
+        "unit": "private_room_per_night_2_people_total",
+        "min_try": 2900,
+        "max_try": 7500,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": true
+      },
+      "notes_tr": "Konaklama iki kişilik tek oda/gece için planlama tahmini; gerçek rezervasyon fiyatı değildir. Parkur başlangıç işareti yaklaşık, doğrulanmış GPX yok.",
+      "estimated_moving_hours": 4.9,
+      "effort_index": 18.5,
+      "difficulty_by_effort": "moderate"
+    },
+    {
+      "id": "tr-09",
+      "name": "Kazdağları – Hasanboğuldu / Sütüven çevresi",
+      "country": "TR",
+      "area": "turkey",
+      "region": "tr_aegean",
+      "base_town": "Zeytinli, Edremit",
+      "lat": 39.645,
+      "lon": 26.993,
+      "distance_km": 9,
+      "elevation_gain_m": 260,
+      "metric_status": "planning_estimate",
+      "months_possible": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "months_best": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "winter_designated": false,
+      "activities": [
+        "waterfall",
+        "forest"
+      ],
+      "route_type": "variant_to_verify",
+      "technical_risk": "protected_area_check",
+      "season_warning_tr": "Milli park sınırları ve rehber zorunluluğu olan bölümleri önceden kontrol edin",
+      "source_url": "https://goturkiye.com/tr/walking/kazdagi",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Kazdağları Turkey",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 39.645,
+        "longitude": 26.993,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "TRY",
+        "unit": "private_room_per_night_2_people_total",
+        "min_try": 2600,
+        "max_try": 6500,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": true
+      },
+      "notes_tr": "Konaklama iki kişilik tek oda/gece için planlama tahmini; gerçek rezervasyon fiyatı değildir. Parkur başlangıç işareti yaklaşık, doğrulanmış GPX yok.",
+      "estimated_moving_hours": 3.1,
+      "effort_index": 11.6,
+      "difficulty_by_effort": "easy"
+    },
+    {
+      "id": "tr-10",
+      "name": "Kazdağları – Şahindere Kanyonu çevresi",
+      "country": "TR",
+      "area": "turkey",
+      "region": "tr_aegean",
+      "base_town": "Altınoluk, Balıkesir",
+      "lat": 39.564,
+      "lon": 26.741,
+      "distance_km": 8,
+      "elevation_gain_m": 300,
+      "metric_status": "planning_estimate",
+      "months_possible": [
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "months_best": [
+        4,
+        5,
+        10,
+        11
+      ],
+      "winter_designated": false,
+      "activities": [
+        "canyon",
+        "forest"
+      ],
+      "route_type": "variant_to_verify",
+      "technical_risk": "protected_area_check",
+      "season_warning_tr": "Korunan alanda erişim kısıtları, dik zemin ve sıcaklık riski",
+      "source_url": "https://goturkiye.com/tr/walking/kazdagi",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Kazdağları Turkey",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 39.564,
+        "longitude": 26.741,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "TRY",
+        "unit": "private_room_per_night_2_people_total",
+        "min_try": 2600,
+        "max_try": 6500,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": true
+      },
+      "notes_tr": "Konaklama iki kişilik tek oda/gece için planlama tahmini; gerçek rezervasyon fiyatı değildir. Parkur başlangıç işareti yaklaşık, doğrulanmış GPX yok.",
+      "estimated_moving_hours": 3.0,
+      "effort_index": 11.0,
+      "difficulty_by_effort": "easy"
+    },
+    {
+      "id": "tr-11",
+      "name": "Bafa Gölü – Kapıkırı / Herakleia patikaları",
+      "country": "TR",
+      "area": "turkey",
+      "region": "tr_aegean",
+      "base_town": "Kapıkırı, Milas",
+      "lat": 37.503,
+      "lon": 27.526,
+      "distance_km": 11,
+      "elevation_gain_m": 260,
+      "metric_status": "planning_estimate",
+      "months_possible": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12
+      ],
+      "months_best": [
+        3,
+        4,
+        5,
+        10,
+        11
+      ],
+      "winter_designated": false,
+      "activities": [
+        "lake",
+        "archaeology",
+        "rock"
+      ],
+      "route_type": "variant_to_verify",
+      "technical_risk": "ordinary_trail",
+      "season_warning_tr": "Yazın gölge ve su az; kaya üzerinde yön bulma gerekiyor",
+      "source_url": "https://goturkiye.com/adventure/trekking-and-hiking",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Bafa Gölü Turkey",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 37.503,
+        "longitude": 27.526,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "TRY",
+        "unit": "private_room_per_night_2_people_total",
+        "min_try": 2200,
+        "max_try": 5300,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": true
+      },
+      "notes_tr": "Konaklama iki kişilik tek oda/gece için planlama tahmini; gerçek rezervasyon fiyatı değildir. Parkur başlangıç işareti yaklaşık, doğrulanmış GPX yok.",
+      "estimated_moving_hours": 3.7,
+      "effort_index": 13.6,
+      "difficulty_by_effort": "moderate"
+    },
+    {
+      "id": "tr-12",
+      "name": "Karia Yolu – Bozburun yarımadası günübirlik etap",
+      "country": "TR",
+      "area": "turkey",
+      "region": "tr_aegean",
+      "base_town": "Bozburun, Marmaris",
+      "lat": 36.689,
+      "lon": 28.049,
+      "distance_km": null,
+      "elevation_gain_m": null,
+      "metric_status": "unknown_route_variant",
+      "months_possible": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12
+      ],
+      "months_best": [
+        3,
+        4,
+        5,
+        10,
+        11
+      ],
+      "winter_designated": false,
+      "activities": [
+        "coast",
+        "ancient_trail"
+      ],
+      "route_type": "variant_to_verify",
+      "technical_risk": "route_choice_required",
+      "season_warning_tr": "Karia Yolu uzun bir hat; kesin etap/GPX seçilmeden km ve irtifa bilinmiyor",
+      "source_url": "https://goturkiye.com/routes/hiking-route-carian-trail-and-lycian-way",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Karia Yolu Turkey",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 36.689,
+        "longitude": 28.049,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "TRY",
+        "unit": "private_room_per_night_2_people_total",
+        "min_try": 2900,
+        "max_try": 7500,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": true
+      },
+      "notes_tr": "Konaklama iki kişilik tek oda/gece için planlama tahmini; gerçek rezervasyon fiyatı değildir. Parkur başlangıç işareti yaklaşık, doğrulanmış GPX yok.",
+      "estimated_moving_hours": null,
+      "effort_index": null,
+      "difficulty_by_effort": "unknown"
+    },
+    {
+      "id": "tr-13",
+      "name": "Likya Yolu – Fethiye / Faralya etabı",
+      "country": "TR",
+      "area": "turkey",
+      "region": "tr_mediterranean",
+      "base_town": "Ölüdeniz, Fethiye",
+      "lat": 36.551,
+      "lon": 29.122,
+      "distance_km": null,
+      "elevation_gain_m": null,
+      "metric_status": "unknown_route_variant",
+      "months_possible": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12
+      ],
+      "months_best": [
+        3,
+        4,
+        5,
+        10,
+        11
+      ],
+      "winter_designated": false,
+      "activities": [
+        "coast",
+        "cliff",
+        "ancient_trail"
+      ],
+      "route_type": "variant_to_verify",
+      "technical_risk": "exposed_or_slippery",
+      "season_warning_tr": "Kenarları açık yamaçlar, yaz sıcağı; etabı ve uzunluğu yürüyüş öncesi sabitleyin",
+      "source_url": "https://goturkiye.com/walking/lycian-way",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Likya Yolu Turkey",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 36.551,
+        "longitude": 29.122,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "TRY",
+        "unit": "private_room_per_night_2_people_total",
+        "min_try": 2900,
+        "max_try": 7500,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": true
+      },
+      "notes_tr": "Konaklama iki kişilik tek oda/gece için planlama tahmini; gerçek rezervasyon fiyatı değildir. Parkur başlangıç işareti yaklaşık, doğrulanmış GPX yok.",
+      "estimated_moving_hours": null,
+      "effort_index": null,
+      "difficulty_by_effort": "unknown"
+    },
+    {
+      "id": "tr-14",
+      "name": "Likya Yolu – Kabak / Alınca etabı",
+      "country": "TR",
+      "area": "turkey",
+      "region": "tr_mediterranean",
+      "base_town": "Kabak, Fethiye",
+      "lat": 36.46,
+      "lon": 29.127,
+      "distance_km": null,
+      "elevation_gain_m": null,
+      "metric_status": "unknown_route_variant",
+      "months_possible": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "months_best": [
+        3,
+        4,
+        5,
+        10,
+        11
+      ],
+      "winter_designated": false,
+      "activities": [
+        "coast",
+        "mountain"
+      ],
+      "route_type": "variant_to_verify",
+      "technical_risk": "steep_or_exposed",
+      "season_warning_tr": "Dik ve yer yer açık patikalar; sıcakta su kritik",
+      "source_url": "https://goturkiye.com/walking/lycian-way",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Likya Yolu Turkey",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 36.46,
+        "longitude": 29.127,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "TRY",
+        "unit": "private_room_per_night_2_people_total",
+        "min_try": 2700,
+        "max_try": 7500,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": true
+      },
+      "notes_tr": "Konaklama iki kişilik tek oda/gece için planlama tahmini; gerçek rezervasyon fiyatı değildir. Parkur başlangıç işareti yaklaşık, doğrulanmış GPX yok.",
+      "estimated_moving_hours": null,
+      "effort_index": null,
+      "difficulty_by_effort": "unknown"
+    },
+    {
+      "id": "tr-15",
+      "name": "Likya Yolu – Gelidonya Feneri yaklaşımı",
+      "country": "TR",
+      "area": "turkey",
+      "region": "tr_mediterranean",
+      "base_town": "Karaöz, Kumluca",
+      "lat": 36.207,
+      "lon": 30.417,
+      "distance_km": 11,
+      "elevation_gain_m": 400,
+      "metric_status": "planning_estimate",
+      "months_possible": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12
+      ],
+      "months_best": [
+        3,
+        4,
+        5,
+        10,
+        11
+      ],
+      "winter_designated": false,
+      "activities": [
+        "coast",
+        "lighthouse"
+      ],
+      "route_type": "variant_to_verify",
+      "technical_risk": "exposed_or_slippery",
+      "season_warning_tr": "Kayalık patika, güçlü rüzgâr ve yaz sıcağı; ulaşım düzenlemesi gerekebilir",
+      "source_url": "https://goturkiye.com/fethiye/the-lycian-way",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Likya Yolu Turkey",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 36.207,
+        "longitude": 30.417,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "TRY",
+        "unit": "private_room_per_night_2_people_total",
+        "min_try": 2500,
+        "max_try": 6200,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": true
+      },
+      "notes_tr": "Konaklama iki kişilik tek oda/gece için planlama tahmini; gerçek rezervasyon fiyatı değildir. Parkur başlangıç işareti yaklaşık, doğrulanmış GPX yok.",
+      "estimated_moving_hours": 4.0,
+      "effort_index": 15.0,
+      "difficulty_by_effort": "moderate"
+    },
+    {
+      "id": "tr-16",
+      "name": "Likya Yolu – Çıralı / Olympos kıyı yürüyüşü",
+      "country": "TR",
+      "area": "turkey",
+      "region": "tr_mediterranean",
+      "base_town": "Çıralı, Antalya",
+      "lat": 36.41,
+      "lon": 30.476,
+      "distance_km": 9,
+      "elevation_gain_m": 180,
+      "metric_status": "planning_estimate",
+      "months_possible": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12
+      ],
+      "months_best": [
+        3,
+        4,
+        5,
+        10,
+        11
+      ],
+      "winter_designated": false,
+      "activities": [
+        "coast",
+        "archaeology"
+      ],
+      "route_type": "variant_to_verify",
+      "technical_risk": "ordinary_trail",
+      "season_warning_tr": "Sahil ve antik kent giriş koşulları; fırtınalı havada kıyıdan uzak durun",
+      "source_url": "https://goturkiye.com/fethiye/the-lycian-way",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Likya Yolu Turkey",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 36.41,
+        "longitude": 30.476,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "TRY",
+        "unit": "private_room_per_night_2_people_total",
+        "min_try": 2500,
+        "max_try": 7000,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": true
+      },
+      "notes_tr": "Konaklama iki kişilik tek oda/gece için planlama tahmini; gerçek rezervasyon fiyatı değildir. Parkur başlangıç işareti yaklaşık, doğrulanmış GPX yok.",
+      "estimated_moving_hours": 3.0,
+      "effort_index": 10.8,
+      "difficulty_by_effort": "easy"
+    },
+    {
+      "id": "tr-17",
+      "name": "Köprülü Kanyon – kıyı ve orman patikaları",
+      "country": "TR",
+      "area": "turkey",
+      "region": "tr_mediterranean",
+      "base_town": "Beşkonak, Manavgat",
+      "lat": 37.195,
+      "lon": 31.181,
+      "distance_km": null,
+      "elevation_gain_m": null,
+      "metric_status": "unknown_route_variant",
+      "months_possible": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12
+      ],
+      "months_best": [
+        3,
+        4,
+        5,
+        10,
+        11
+      ],
+      "winter_designated": false,
+      "activities": [
+        "canyon",
+        "river"
+      ],
+      "route_type": "variant_to_verify",
+      "technical_risk": "route_choice_required",
+      "season_warning_tr": "Rafting güzergâhları ile yürüyüş patikaları farklı; işaretli yürüyüş varyantını seçin",
+      "source_url": "https://goturkiye.com/antalya/routes",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Köprülü Kanyon Turkey",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 37.195,
+        "longitude": 31.181,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "TRY",
+        "unit": "private_room_per_night_2_people_total",
+        "min_try": 2200,
+        "max_try": 5600,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": true
+      },
+      "notes_tr": "Konaklama iki kişilik tek oda/gece için planlama tahmini; gerçek rezervasyon fiyatı değildir. Parkur başlangıç işareti yaklaşık, doğrulanmış GPX yok.",
+      "estimated_moving_hours": null,
+      "effort_index": null,
+      "difficulty_by_effort": "unknown"
+    },
+    {
+      "id": "tr-18",
+      "name": "Aziz Paul Yolu – Yazılı Kanyon çevresi",
+      "country": "TR",
+      "area": "turkey",
+      "region": "tr_mediterranean",
+      "base_town": "Sütçüler, Isparta",
+      "lat": 37.49,
+      "lon": 30.92,
+      "distance_km": null,
+      "elevation_gain_m": null,
+      "metric_status": "unknown_route_variant",
+      "months_possible": [
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "months_best": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "winter_designated": false,
+      "activities": [
+        "canyon",
+        "forest",
+        "ancient_trail"
+      ],
+      "route_type": "variant_to_verify",
+      "technical_risk": "remote_trail",
+      "season_warning_tr": "Uzun mesafe rotasının etap seçimi gerekir; su geçişleri ve sarp alanlar olabilir",
+      "source_url": "https://goturkiye.com/walking/mediterranean-turkiye",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Aziz Paul Yolu Turkey",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 37.49,
+        "longitude": 30.92,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "TRY",
+        "unit": "private_room_per_night_2_people_total",
+        "min_try": 2000,
+        "max_try": 5000,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": true
+      },
+      "notes_tr": "Konaklama iki kişilik tek oda/gece için planlama tahmini; gerçek rezervasyon fiyatı değildir. Parkur başlangıç işareti yaklaşık, doğrulanmış GPX yok.",
+      "estimated_moving_hours": null,
+      "effort_index": null,
+      "difficulty_by_effort": "unknown"
+    },
+    {
+      "id": "tr-19",
+      "name": "Kapadokya – Kızılçukur / Güllüdere vadileri",
+      "country": "TR",
+      "area": "turkey",
+      "region": "tr_central",
+      "base_town": "Göreme, Nevşehir",
+      "lat": 38.643,
+      "lon": 34.83,
+      "distance_km": 11,
+      "elevation_gain_m": 280,
+      "metric_status": "planning_estimate",
+      "months_possible": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12
+      ],
+      "months_best": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ],
+      "winter_designated": false,
+      "activities": [
+        "valley",
+        "rock",
+        "sunset"
+      ],
+      "route_type": "variant_to_verify",
+      "technical_risk": "ordinary_trail",
+      "season_warning_tr": "Kışın kaya üstünde buz; yazın sıcak ve gölgesiz",
+      "source_url": "https://goturkiye.com/walking/central-anatolia",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Kapadokya Turkey",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 38.643,
+        "longitude": 34.83,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "TRY",
+        "unit": "private_room_per_night_2_people_total",
+        "min_try": 2600,
+        "max_try": 7200,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": true
+      },
+      "notes_tr": "Konaklama iki kişilik tek oda/gece için planlama tahmini; gerçek rezervasyon fiyatı değildir. Parkur başlangıç işareti yaklaşık, doğrulanmış GPX yok.",
+      "estimated_moving_hours": 3.8,
+      "effort_index": 13.8,
+      "difficulty_by_effort": "moderate"
+    },
+    {
+      "id": "tr-20",
+      "name": "Kapadokya – Aşk Vadisi / Uçhisar",
+      "country": "TR",
+      "area": "turkey",
+      "region": "tr_central",
+      "base_town": "Göreme / Uçhisar",
+      "lat": 38.66,
+      "lon": 34.817,
+      "distance_km": 9,
+      "elevation_gain_m": 300,
+      "metric_status": "planning_estimate",
+      "months_possible": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12
+      ],
+      "months_best": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ],
+      "winter_designated": false,
+      "activities": [
+        "valley",
+        "rock"
+      ],
+      "route_type": "variant_to_verify",
+      "technical_risk": "ordinary_trail",
+      "season_warning_tr": "Dar zemin, yağış sonrası kil ve kışın buz",
+      "source_url": "https://goturkiye.com/walking/central-anatolia",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Kapadokya Turkey",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 38.66,
+        "longitude": 34.817,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "TRY",
+        "unit": "private_room_per_night_2_people_total",
+        "min_try": 2600,
+        "max_try": 7200,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": true
+      },
+      "notes_tr": "Konaklama iki kişilik tek oda/gece için planlama tahmini; gerçek rezervasyon fiyatı değildir. Parkur başlangıç işareti yaklaşık, doğrulanmış GPX yok.",
+      "estimated_moving_hours": 3.2,
+      "effort_index": 12.0,
+      "difficulty_by_effort": "easy"
+    },
+    {
+      "id": "tr-21",
+      "name": "Ihlara Vadisi – Ihlara / Belisırma / Selime",
+      "country": "TR",
+      "area": "turkey",
+      "region": "tr_central",
+      "base_town": "Ihlara, Aksaray",
+      "lat": 38.253,
+      "lon": 34.304,
+      "distance_km": 14,
+      "elevation_gain_m": 180,
+      "metric_status": "planning_estimate",
+      "months_possible": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12
+      ],
+      "months_best": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ],
+      "winter_designated": false,
+      "activities": [
+        "canyon",
+        "river",
+        "churches"
+      ],
+      "route_type": "variant_to_verify",
+      "technical_risk": "ordinary_trail",
+      "season_warning_tr": "Giriş ücreti/açılış saatleri ve sel/yağmur ihtimali kontrol edilmeli",
+      "source_url": "https://goturkiye.com/tr/walking/ihlara-vadisi",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Ihlara Vadisi Turkey",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 38.253,
+        "longitude": 34.304,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "TRY",
+        "unit": "private_room_per_night_2_people_total",
+        "min_try": 2100,
+        "max_try": 5200,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": true
+      },
+      "notes_tr": "Konaklama iki kişilik tek oda/gece için planlama tahmini; gerçek rezervasyon fiyatı değildir. Parkur başlangıç işareti yaklaşık, doğrulanmış GPX yok.",
+      "estimated_moving_hours": 4.4,
+      "effort_index": 15.8,
+      "difficulty_by_effort": "moderate"
+    },
+    {
+      "id": "tr-22",
+      "name": "Frig Yolu – Yazılıkaya / Midas Anıtı çevresi",
+      "country": "TR",
+      "area": "turkey",
+      "region": "tr_central",
+      "base_town": "Yazılıkaya, Eskişehir",
+      "lat": 39.201,
+      "lon": 30.712,
+      "distance_km": 12,
+      "elevation_gain_m": 220,
+      "metric_status": "planning_estimate",
+      "months_possible": [
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "months_best": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "winter_designated": false,
+      "activities": [
+        "archaeology",
+        "rock",
+        "forest"
+      ],
+      "route_type": "variant_to_verify",
+      "technical_risk": "ordinary_trail",
+      "season_warning_tr": "Frig Yolu çok etaplı; burada çevrede örnek günübirlik halka ele alındı",
+      "source_url": "https://goturkiye.com/walking/central-anatolia",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Frig Yolu Turkey",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 39.201,
+        "longitude": 30.712,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "TRY",
+        "unit": "private_room_per_night_2_people_total",
+        "min_try": 1900,
+        "max_try": 4400,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": true
+      },
+      "notes_tr": "Konaklama iki kişilik tek oda/gece için planlama tahmini; gerçek rezervasyon fiyatı değildir. Parkur başlangıç işareti yaklaşık, doğrulanmış GPX yok.",
+      "estimated_moving_hours": 3.9,
+      "effort_index": 14.2,
+      "difficulty_by_effort": "moderate"
+    },
+    {
+      "id": "tr-23",
+      "name": "Kaçkar – Ayder / Kavron yayla çevresi",
+      "country": "TR",
+      "area": "turkey",
+      "region": "tr_black_sea_east",
+      "base_town": "Ayder, Çamlıhemşin",
+      "lat": 40.951,
+      "lon": 41.111,
+      "distance_km": null,
+      "elevation_gain_m": null,
+      "metric_status": "unknown_route_variant",
+      "months_possible": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "months_best": [
+        7,
+        8,
+        9
+      ],
+      "winter_designated": false,
+      "activities": [
+        "yayla",
+        "mountain"
+      ],
+      "route_type": "variant_to_verify",
+      "technical_risk": "high_alpine",
+      "season_warning_tr": "Yüksek yayla erişimi, sis, sağanak ve kar; yöresel rehber iyi olur",
+      "source_url": "https://www.turkishairlines.com/tr-es/kesif-rehberi/visit-turkey/trekking/turkiyedeki-trekking-rotalari/",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Kaçkar Turkey",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 40.951,
+        "longitude": 41.111,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "TRY",
+        "unit": "private_room_per_night_2_people_total",
+        "min_try": 2800,
+        "max_try": 7500,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": true
+      },
+      "notes_tr": "Konaklama iki kişilik tek oda/gece için planlama tahmini; gerçek rezervasyon fiyatı değildir. Parkur başlangıç işareti yaklaşık, doğrulanmış GPX yok.",
+      "estimated_moving_hours": null,
+      "effort_index": null,
+      "difficulty_by_effort": "unknown"
+    },
+    {
+      "id": "tr-24",
+      "name": "Kaçkar – Çat Vadisi / Verçenik yaylası yaklaşımı",
+      "country": "TR",
+      "area": "turkey",
+      "region": "tr_black_sea_east",
+      "base_town": "Çat, Çamlıhemşin",
+      "lat": 40.877,
+      "lon": 41.149,
+      "distance_km": null,
+      "elevation_gain_m": null,
+      "metric_status": "unknown_route_variant",
+      "months_possible": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "months_best": [
+        7,
+        8,
+        9
+      ],
+      "winter_designated": false,
+      "activities": [
+        "yayla",
+        "river",
+        "mountain"
+      ],
+      "route_type": "variant_to_verify",
+      "technical_risk": "remote_trail",
+      "season_warning_tr": "Yol ve etap değişken; kar, sis ve çığ/heyelan koşullarını yerelden kontrol edin",
+      "source_url": "https://www.turkishairlines.com/tr-es/kesif-rehberi/visit-turkey/trekking/turkiyedeki-trekking-rotalari/",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Kaçkar Turkey",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 40.877,
+        "longitude": 41.149,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "TRY",
+        "unit": "private_room_per_night_2_people_total",
+        "min_try": 2500,
+        "max_try": 6500,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": true
+      },
+      "notes_tr": "Konaklama iki kişilik tek oda/gece için planlama tahmini; gerçek rezervasyon fiyatı değildir. Parkur başlangıç işareti yaklaşık, doğrulanmış GPX yok.",
+      "estimated_moving_hours": null,
+      "effort_index": null,
+      "difficulty_by_effort": "unknown"
+    },
+    {
+      "id": "tr-25",
+      "name": "Uzungöl – Lustra / Karester yayla çevresi",
+      "country": "TR",
+      "area": "turkey",
+      "region": "tr_black_sea_east",
+      "base_town": "Uzungöl, Çaykara",
+      "lat": 40.62,
+      "lon": 40.291,
+      "distance_km": null,
+      "elevation_gain_m": null,
+      "metric_status": "unknown_route_variant",
+      "months_possible": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "months_best": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "winter_designated": false,
+      "activities": [
+        "lake",
+        "yayla",
+        "mountain"
+      ],
+      "route_type": "variant_to_verify",
+      "technical_risk": "mountain_weather",
+      "season_warning_tr": "Yağmur, sis ve yayla yolları erişimi; bazı geçişler araç yolu",
+      "source_url": "https://goturkiye.com/adventure/trekking-and-hiking",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Uzungöl Turkey",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 40.62,
+        "longitude": 40.291,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "TRY",
+        "unit": "private_room_per_night_2_people_total",
+        "min_try": 2700,
+        "max_try": 6900,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": true
+      },
+      "notes_tr": "Konaklama iki kişilik tek oda/gece için planlama tahmini; gerçek rezervasyon fiyatı değildir. Parkur başlangıç işareti yaklaşık, doğrulanmış GPX yok.",
+      "estimated_moving_hours": null,
+      "effort_index": null,
+      "difficulty_by_effort": "unknown"
+    },
+    {
+      "id": "tr-26",
+      "name": "Hatila Vadisi – güvenli işaretli parkurlar",
+      "country": "TR",
+      "area": "turkey",
+      "region": "tr_black_sea_east",
+      "base_town": "Hatila Vadisi, Artvin",
+      "lat": 41.125,
+      "lon": 41.789,
+      "distance_km": null,
+      "elevation_gain_m": null,
+      "metric_status": "unknown_route_variant",
+      "months_possible": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "months_best": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "winter_designated": false,
+      "activities": [
+        "canyon",
+        "forest"
+      ],
+      "route_type": "variant_to_verify",
+      "technical_risk": "remote_trail",
+      "season_warning_tr": "Koruma sahası, dar vadi ve heyelan sonrası yol durumu kontrol edilmeli",
+      "source_url": "https://goturkiye.com/adventure/trekking-and-hiking",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Hatila Vadisi Turkey",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 41.125,
+        "longitude": 41.789,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "TRY",
+        "unit": "private_room_per_night_2_people_total",
+        "min_try": 2100,
+        "max_try": 5300,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": true
+      },
+      "notes_tr": "Konaklama iki kişilik tek oda/gece için planlama tahmini; gerçek rezervasyon fiyatı değildir. Parkur başlangıç işareti yaklaşık, doğrulanmış GPX yok.",
+      "estimated_moving_hours": null,
+      "effort_index": null,
+      "difficulty_by_effort": "unknown"
+    },
+    {
+      "id": "tr-27",
+      "name": "Munzur Vadisi – Ovacık çevresi doğa yürüyüşü",
+      "country": "TR",
+      "area": "turkey",
+      "region": "tr_east",
+      "base_town": "Ovacık, Tunceli",
+      "lat": 39.357,
+      "lon": 39.219,
+      "distance_km": null,
+      "elevation_gain_m": null,
+      "metric_status": "unknown_route_variant",
+      "months_possible": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "months_best": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "winter_designated": false,
+      "activities": [
+        "river",
+        "mountain"
+      ],
+      "route_type": "variant_to_verify",
+      "technical_risk": "remote_trail",
+      "season_warning_tr": "Milli park kuralları, mevsimsel akarsu ve bölgesel erişim kısıtlarını doğrulayın",
+      "source_url": "https://goturkiye.com/adventure/trekking-and-hiking",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Munzur Vadisi Turkey",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 39.357,
+        "longitude": 39.219,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "TRY",
+        "unit": "private_room_per_night_2_people_total",
+        "min_try": 1900,
+        "max_try": 4500,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": true
+      },
+      "notes_tr": "Konaklama iki kişilik tek oda/gece için planlama tahmini; gerçek rezervasyon fiyatı değildir. Parkur başlangıç işareti yaklaşık, doğrulanmış GPX yok.",
+      "estimated_moving_hours": null,
+      "effort_index": null,
+      "difficulty_by_effort": "unknown"
+    },
+    {
+      "id": "tr-28",
+      "name": "Aladağlar – Kapuzbaşı Şelaleleri çevresi",
+      "country": "TR",
+      "area": "turkey",
+      "region": "tr_central",
+      "base_town": "Kapuzbaşı, Yahyalı",
+      "lat": 37.827,
+      "lon": 35.415,
+      "distance_km": 8,
+      "elevation_gain_m": 220,
+      "metric_status": "planning_estimate",
+      "months_possible": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "months_best": [
+        5,
+        6,
+        9,
+        10
+      ],
+      "winter_designated": false,
+      "activities": [
+        "waterfall",
+        "mountain"
+      ],
+      "route_type": "variant_to_verify",
+      "technical_risk": "mountain_weather",
+      "season_warning_tr": "Dağ yolları ve şelale çevresinde kaygan zemin; daha yüksek parkurlara izinsiz çıkmayın",
+      "source_url": "https://goturkiye.com/adventure/trekking-and-hiking",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Aladağlar Turkey",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 37.827,
+        "longitude": 35.415,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "TRY",
+        "unit": "private_room_per_night_2_people_total",
+        "min_try": 2000,
+        "max_try": 4800,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": true
+      },
+      "notes_tr": "Konaklama iki kişilik tek oda/gece için planlama tahmini; gerçek rezervasyon fiyatı değildir. Parkur başlangıç işareti yaklaşık, doğrulanmış GPX yok.",
+      "estimated_moving_hours": 2.8,
+      "effort_index": 10.2,
+      "difficulty_by_effort": "easy"
+    }
+  ]
+}

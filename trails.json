@@ -1,0 +1,2445 @@
+{
+  "meta": {
+    "schema_version": "1.0",
+    "updated_at": "2026-11-18",
+    "locale": "tr-TR",
+    "currency": "EUR",
+    "coverage": "12 months",
+    "hiking_season_disclaimer_tr": "Ay etiketleri klimatolojik planlama amaçlıdır, anlık hava/yol/kar durumu veya sezonluk açık olma garantisi değildir. Kış rota erişimini yerel turizm/DAV/CAI kaynaklarından kontrol edin.",
+    "metric_disclaimer_tr": "Metrikler seçilen varyant için yaklaşık veya kaynak varyantıdır. null değer sıfır değildir. GPS izi sağlanmamıştır; haritadaki nokta başlangıç bölgesini temsil eder.",
+    "lodging_disclaimer_tr": "Konaklama bantları 2026 sonu için gerçek zamanlı fiyat sorgusu olmadan oluşturulmuş kaba planlama varsayımlarıdır; konaklama fiyatı, müsaitlik, vergiler ve sezon yoğunluğuyla büyük ölçüde değişebilir. İki kişi toplam / bir özel oda / gece. Ulaşım, yemek, park ücreti ve teleferik hariç.",
+    "difficulty_formula": "distance_km + elevation_gain_m/100; easy <13, moderate 13–<22, hard >=22; technical_risk must be displayed separately",
+    "source_policy": "Each route has a source_url. Some URLs document the broader area rather than the exact variant: check and refine before publication.",
+    "photo_policy": "Only Commons search text is provided. Do not embed random search results without checking subject, attribution and reuse terms.",
+    "geo_policy": "Trailhead markers only; not GPX. Never connect map pins into a fake hiking path."
+  },
+  "regions": [
+    {
+      "id": "between",
+      "legacy_area": "middle"
+    },
+    {
+      "id": "munich",
+      "legacy_area": "me"
+    },
+    {
+      "id": "heilbronn",
+      "legacy_area": "friend"
+    },
+    {
+      "id": "stuttgart",
+      "legacy_area": "stuttgart"
+    },
+    {
+      "id": "austrian_alps",
+      "legacy_area": "alps_at"
+    },
+    {
+      "id": "dolomites",
+      "legacy_area": "dolomites"
+    },
+    {
+      "id": "northern_italy",
+      "legacy_area": "italy_other"
+    }
+  ],
+  "trails": [
+    {
+      "id": "loewensteiner-wt11",
+      "name": "Löwensteiner Weinbergtour WT11",
+      "country": "DE",
+      "area": "friend",
+      "region": "heilbronn",
+      "base_town": "Löwenstein / Breitenauer See",
+      "lat": 49.094,
+      "lon": 9.378,
+      "distance_km": 10.55,
+      "elevation_gain_m": 305,
+      "metric_status": "published_variant",
+      "months_possible": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "months_best": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "winter_designated": false,
+      "activities": [
+        "vineyards",
+        "lake",
+        "forest"
+      ],
+      "route_type": "loop_or_out_and_back_check_source",
+      "technical_risk": "ordinary_trail",
+      "season_warning_tr": "Kışın yalnızca buzsuz bağ ve orman patikalarında yürüyün.",
+      "source_url": "https://www.heilbronnerland.de/tour/wt11-weinbergtour-loewenstein",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Breitenauer See Löwenstein",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 49.094,
+        "longitude": 9.378,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "EUR",
+        "unit": "private_room_per_night_2_people_total",
+        "min_eur": 65,
+        "max_eur": 120,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": false
+      },
+      "notes_tr": "Konaklama aralığı kişi başı değil, iki kişi için tek oda/gece tahmini. Ulaşım, yemek ve lift/park ücretleri hariç.",
+      "estimated_moving_hours": 3.2,
+      "effort_index": 13.6,
+      "difficulty_by_effort": "moderate"
+    },
+    {
+      "id": "neckar-gundelsheim",
+      "name": "Neckarsteig: Gundelsheim → Bad Wimpfen",
+      "country": "DE",
+      "area": "friend",
+      "region": "heilbronn",
+      "base_town": "Gundelsheim / Bad Wimpfen",
+      "lat": 49.282,
+      "lon": 9.161,
+      "distance_km": 13.5,
+      "elevation_gain_m": 210,
+      "metric_status": "published_variant",
+      "months_possible": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        10,
+        11,
+        12
+      ],
+      "months_best": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "winter_designated": false,
+      "activities": [
+        "river",
+        "castle",
+        "forest"
+      ],
+      "route_type": "point_to_point",
+      "technical_risk": "ordinary_trail",
+      "season_warning_tr": "Kuru kış günlerinde mümkün; yağış sonrası çamur ve buz olabilir.",
+      "source_url": "https://www.heilbronnerland.de/tour/neckarsteig-etappe-gundelsheim-bad-wimpfen",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Burg Guttenberg Neckar",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 49.282,
+        "longitude": 9.161,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "EUR",
+        "unit": "private_room_per_night_2_people_total",
+        "min_eur": 65,
+        "max_eur": 120,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": false
+      },
+      "notes_tr": "Konaklama aralığı kişi başı değil, iki kişi için tek oda/gece tahmini. Ulaşım, yemek ve lift/park ücretleri hariç.",
+      "estimated_moving_hours": 3.8,
+      "effort_index": 15.6,
+      "difficulty_by_effort": "moderate"
+    },
+    {
+      "id": "essing-kelheim",
+      "name": "Altmühltal: Essing → Kelheim",
+      "country": "DE",
+      "area": "middle",
+      "region": "between",
+      "base_town": "Essing / Kelheim",
+      "lat": 48.934,
+      "lon": 11.791,
+      "distance_km": 13.0,
+      "elevation_gain_m": null,
+      "metric_status": "partial",
+      "months_possible": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "months_best": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "winter_designated": false,
+      "activities": [
+        "river",
+        "cliffs",
+        "bridge"
+      ],
+      "route_type": "point_to_point",
+      "technical_risk": "ordinary_trail",
+      "season_warning_tr": "Uçtan uca parkur: dönüş ulaşımını önceden planlayın.",
+      "source_url": "https://www.naturpark-altmuehltal.de/wandern/wanderwege/essing-kelheim-165/",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Essing Tatzlwurm Altmühltal",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 48.934,
+        "longitude": 11.791,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "EUR",
+        "unit": "private_room_per_night_2_people_total",
+        "min_eur": 65,
+        "max_eur": 125,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": false
+      },
+      "notes_tr": "Konaklama aralığı kişi başı değil, iki kişi için tek oda/gece tahmini. Ulaşım, yemek ve lift/park ücretleri hariç.",
+      "estimated_moving_hours": 3.2,
+      "effort_index": null,
+      "difficulty_by_effort": "needs_elevation_or_distance"
+    },
+    {
+      "id": "blaubeurer-felsenstieg",
+      "name": "Blaubeurer Felsenstieg",
+      "country": "DE",
+      "area": "middle",
+      "region": "between",
+      "base_town": "Blaubeuren / Ulm",
+      "lat": 48.412,
+      "lon": 9.79,
+      "distance_km": 10.4,
+      "elevation_gain_m": 440,
+      "metric_status": "published_variant",
+      "months_possible": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "months_best": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "winter_designated": false,
+      "activities": [
+        "cliffs",
+        "forest",
+        "view"
+      ],
+      "route_type": "loop_or_out_and_back_check_source",
+      "technical_risk": "ordinary_trail",
+      "season_warning_tr": "Blautopf inşaat/erişim duyuruları ve kaygan kayalıklar kontrol edilmeli.",
+      "source_url": "https://www.deutsche-donau.de/wege/blaubeurer_felsenstieg-2638/",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Blaubeurer Felsenstieg Blautopf Rusenschloss",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 48.412,
+        "longitude": 9.79,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "EUR",
+        "unit": "private_room_per_night_2_people_total",
+        "min_eur": 65,
+        "max_eur": 125,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": false
+      },
+      "notes_tr": "Konaklama aralığı kişi başı değil, iki kişi için tek oda/gece tahmini. Ulaşım, yemek ve lift/park ücretleri hariç.",
+      "estimated_moving_hours": 3.5,
+      "effort_index": 14.8,
+      "difficulty_by_effort": "moderate"
+    },
+    {
+      "id": "eselsburger-tal",
+      "name": "Eselsburger Talgang",
+      "country": "DE",
+      "area": "middle",
+      "region": "between",
+      "base_town": "Herbrechtingen",
+      "lat": 48.62,
+      "lon": 10.178,
+      "distance_km": 10.7,
+      "elevation_gain_m": null,
+      "metric_status": "partial",
+      "months_possible": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "months_best": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "winter_designated": false,
+      "activities": [
+        "river",
+        "rocks",
+        "forest"
+      ],
+      "route_type": "loop_or_out_and_back_check_source",
+      "technical_risk": "ordinary_trail",
+      "season_warning_tr": "Vadi yolu kışa daha elverişli ama don ve taş düşmesi kontrol edilmeli.",
+      "source_url": "https://karten.albverein.net/wandertipps/albschaeferweg-zeitspur-eselsburger-talgang/",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Eselsburger Tal Steinerne Jungfrauen",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 48.62,
+        "longitude": 10.178,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "EUR",
+        "unit": "private_room_per_night_2_people_total",
+        "min_eur": 65,
+        "max_eur": 125,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": false
+      },
+      "notes_tr": "Konaklama aralığı kişi başı değil, iki kişi için tek oda/gece tahmini. Ulaşım, yemek ve lift/park ücretleri hariç.",
+      "estimated_moving_hours": 2.7,
+      "effort_index": null,
+      "difficulty_by_effort": "needs_elevation_or_distance"
+    },
+    {
+      "id": "weltenburger-hoehenweg",
+      "name": "Weltenburger Höhenweg",
+      "country": "DE",
+      "area": "middle",
+      "region": "between",
+      "base_town": "Kelheim / Weltenburg",
+      "lat": 48.917,
+      "lon": 11.867,
+      "distance_km": 13.0,
+      "elevation_gain_m": null,
+      "metric_status": "partial",
+      "months_possible": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "months_best": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "winter_designated": false,
+      "activities": [
+        "river",
+        "monastery",
+        "cliffs"
+      ],
+      "route_type": "loop_or_out_and_back_check_source",
+      "technical_risk": "ordinary_trail",
+      "season_warning_tr": "Tuna su seviyesi ve mevsimlik tekne bağlantılarını kontrol edin.",
+      "source_url": "https://www.naturpark-altmuehltal.de/wandern/wanderwege/weltenburger_hoehenweg-37/",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Donaudurchbruch Weltenburg",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 48.917,
+        "longitude": 11.867,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "EUR",
+        "unit": "private_room_per_night_2_people_total",
+        "min_eur": 65,
+        "max_eur": 125,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": false
+      },
+      "notes_tr": "Konaklama aralığı kişi başı değil, iki kişi için tek oda/gece tahmini. Ulaşım, yemek ve lift/park ücretleri hariç.",
+      "estimated_moving_hours": 3.2,
+      "effort_index": null,
+      "difficulty_by_effort": "needs_elevation_or_distance"
+    },
+    {
+      "id": "wental-felsenmeer",
+      "name": "Wental Felsenmeer Rundtour",
+      "country": "DE",
+      "area": "middle",
+      "region": "between",
+      "base_town": "Bartholomä / Steinheim",
+      "lat": 48.755,
+      "lon": 10.016,
+      "distance_km": 14.07,
+      "elevation_gain_m": 192,
+      "metric_status": "published_variant",
+      "months_possible": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "months_best": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "winter_designated": false,
+      "activities": [
+        "rocks",
+        "forest"
+      ],
+      "route_type": "loop_or_out_and_back_check_source",
+      "technical_risk": "ordinary_trail",
+      "season_warning_tr": "Kışta buzlu kaya yüzeyine girmeyin.",
+      "source_url": "https://tourismus.ich-geh-wandern.de/gps-daten/durch-das-felsenmeer-im-wental-schw%C3%A4bische-alb",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Wental Felsenmeer Schwäbische Alb",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 48.755,
+        "longitude": 10.016,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "EUR",
+        "unit": "private_room_per_night_2_people_total",
+        "min_eur": 65,
+        "max_eur": 125,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": false
+      },
+      "notes_tr": "Konaklama aralığı kişi başı değil, iki kişi için tek oda/gece tahmini. Ulaşım, yemek ve lift/park ücretleri hariç.",
+      "estimated_moving_hours": 3.9,
+      "effort_index": 16.0,
+      "difficulty_by_effort": "moderate"
+    },
+    {
+      "id": "bad-urach-wasserfall",
+      "name": "Bad Urach Wasserfallsteig",
+      "country": "DE",
+      "area": "stuttgart",
+      "region": "stuttgart",
+      "base_town": "Bad Urach",
+      "lat": 48.49,
+      "lon": 9.373,
+      "distance_km": 10.0,
+      "elevation_gain_m": 500,
+      "metric_status": "published_variant",
+      "months_possible": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "months_best": [
+        4,
+        5,
+        6,
+        9
+      ],
+      "winter_designated": false,
+      "activities": [
+        "waterfall",
+        "forest",
+        "cliffs"
+      ],
+      "route_type": "loop_or_out_and_back_check_source",
+      "technical_risk": "ordinary_trail",
+      "season_warning_tr": "Yağışlı havada taş basamaklar kaygan; kış kapanmalarını kontrol edin.",
+      "source_url": "https://www.badurach-tourismus.de/tour/wasserfallsteig-694f35807b",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Uracher Wasserfall Bad Urach",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 48.49,
+        "longitude": 9.373,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "EUR",
+        "unit": "private_room_per_night_2_people_total",
+        "min_eur": 75,
+        "max_eur": 145,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": false
+      },
+      "notes_tr": "Konaklama aralığı kişi başı değil, iki kişi için tek oda/gece tahmini. Ulaşım, yemek ve lift/park ücretleri hariç.",
+      "estimated_moving_hours": 3.5,
+      "effort_index": 15.0,
+      "difficulty_by_effort": "moderate"
+    },
+    {
+      "id": "hohenwittlingen",
+      "name": "Hohenwittlingensteig",
+      "country": "DE",
+      "area": "stuttgart",
+      "region": "stuttgart",
+      "base_town": "Bad Urach",
+      "lat": 48.457,
+      "lon": 9.42,
+      "distance_km": 6.3,
+      "elevation_gain_m": null,
+      "metric_status": "partial",
+      "months_possible": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "months_best": [
+        5,
+        6,
+        9
+      ],
+      "winter_designated": false,
+      "activities": [
+        "castle",
+        "cave",
+        "cliffs"
+      ],
+      "route_type": "loop_or_out_and_back_check_source",
+      "technical_risk": "ordinary_trail",
+      "season_warning_tr": "Kayalık ve dar patikaları buz/ıslakta önermiyorum.",
+      "source_url": "https://www.badurach-tourismus.de/tour/hohenwittlingensteig-d307187bc0",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Ruine Hohenwittlingen",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 48.457,
+        "longitude": 9.42,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "EUR",
+        "unit": "private_room_per_night_2_people_total",
+        "min_eur": 75,
+        "max_eur": 145,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": false
+      },
+      "notes_tr": "Konaklama aralığı kişi başı değil, iki kişi için tek oda/gece tahmini. Ulaşım, yemek ve lift/park ücretleri hariç.",
+      "estimated_moving_hours": 1.6,
+      "effort_index": null,
+      "difficulty_by_effort": "needs_elevation_or_distance"
+    },
+    {
+      "id": "stuttgart-rotenberg",
+      "name": "Stuttgart Weinwanderweg: Rotenberg",
+      "country": "DE",
+      "area": "stuttgart",
+      "region": "stuttgart",
+      "base_town": "Stuttgart / Rotenberg",
+      "lat": 48.764,
+      "lon": 9.269,
+      "distance_km": 10.73,
+      "elevation_gain_m": null,
+      "metric_status": "partial",
+      "months_possible": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "months_best": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "winter_designated": false,
+      "activities": [
+        "vineyards",
+        "view"
+      ],
+      "route_type": "loop_or_out_and_back_check_source",
+      "technical_risk": "ordinary_trail",
+      "season_warning_tr": "Şehir yakınında, kar/buzsuz günler için esnek rota.",
+      "source_url": "https://www.stuttgart-tourist.de/a-weinwanderweg-obertuerkheim-uhlbach-rotenberg-untertuerkheim/1",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Grabkapelle Rotenberg Stuttgart",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 48.764,
+        "longitude": 9.269,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "EUR",
+        "unit": "private_room_per_night_2_people_total",
+        "min_eur": 75,
+        "max_eur": 145,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": false
+      },
+      "notes_tr": "Konaklama aralığı kişi başı değil, iki kişi için tek oda/gece tahmini. Ulaşım, yemek ve lift/park ücretleri hariç.",
+      "estimated_moving_hours": 2.7,
+      "effort_index": null,
+      "difficulty_by_effort": "needs_elevation_or_distance"
+    },
+    {
+      "id": "traufgang-zollernburg",
+      "name": "Traufgang Zollernburg-Panorama",
+      "country": "DE",
+      "area": "stuttgart",
+      "region": "stuttgart",
+      "base_town": "Albstadt / Onstmettingen",
+      "lat": 48.27,
+      "lon": 8.973,
+      "distance_km": null,
+      "elevation_gain_m": null,
+      "metric_status": "partial",
+      "months_possible": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "months_best": [
+        5,
+        6,
+        9
+      ],
+      "winter_designated": false,
+      "activities": [
+        "cliffs",
+        "castle",
+        "view"
+      ],
+      "route_type": "loop_or_out_and_back_check_source",
+      "technical_risk": "exposure",
+      "season_warning_tr": "Albtrauf uçurum kenarı; kar/buzda uygun değil. Net varyant metrikleri kontrol edilmeli.",
+      "source_url": "https://www.schwaebischealb.de/wandern/rundwanderwege/traufgaenge",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Zollernburg Panorama Hohenzollern hiking",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 48.27,
+        "longitude": 8.973,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "EUR",
+        "unit": "private_room_per_night_2_people_total",
+        "min_eur": 75,
+        "max_eur": 145,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": false
+      },
+      "notes_tr": "Konaklama aralığı kişi başı değil, iki kişi için tek oda/gece tahmini. Ulaşım, yemek ve lift/park ücretleri hariç.",
+      "estimated_moving_hours": null,
+      "effort_index": null,
+      "difficulty_by_effort": "needs_elevation_or_distance"
+    },
+    {
+      "id": "wutachschlucht",
+      "name": "Wutachschlucht: klasik vadi etabı",
+      "country": "DE",
+      "area": "stuttgart",
+      "region": "stuttgart",
+      "base_town": "Bonndorf / Wutach",
+      "lat": 47.836,
+      "lon": 8.344,
+      "distance_km": null,
+      "elevation_gain_m": null,
+      "metric_status": "partial",
+      "months_possible": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "months_best": [
+        6,
+        7,
+        9
+      ],
+      "winter_designated": false,
+      "activities": [
+        "gorge",
+        "forest",
+        "river"
+      ],
+      "route_type": "loop_or_out_and_back_check_source",
+      "technical_risk": "ordinary_trail",
+      "season_warning_tr": "Birden çok etap var; net km ve tırmanış GPX seçildikten sonra girilmeli. Sel ve heyelan riskleri.",
+      "source_url": "https://www.hochschwarzwald.de/erleben/wutachschlucht",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Wutachschlucht Baden Württemberg",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 47.836,
+        "longitude": 8.344,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "EUR",
+        "unit": "private_room_per_night_2_people_total",
+        "min_eur": 75,
+        "max_eur": 145,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": false
+      },
+      "notes_tr": "Konaklama aralığı kişi başı değil, iki kişi için tek oda/gece tahmini. Ulaşım, yemek ve lift/park ücretleri hariç.",
+      "estimated_moving_hours": null,
+      "effort_index": null,
+      "difficulty_by_effort": "needs_elevation_or_distance"
+    },
+    {
+      "id": "breitachklamm",
+      "name": "Breitachklamm Rundwanderung",
+      "country": "DE",
+      "area": "me",
+      "region": "munich",
+      "base_town": "Oberstdorf",
+      "lat": 47.384,
+      "lon": 10.226,
+      "distance_km": 3.7,
+      "elevation_gain_m": 189,
+      "metric_status": "published_variant",
+      "months_possible": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "months_best": [
+        5,
+        6,
+        9
+      ],
+      "winter_designated": false,
+      "activities": [
+        "gorge",
+        "alps"
+      ],
+      "route_type": "loop_or_out_and_back_check_source",
+      "technical_risk": "ordinary_trail",
+      "season_warning_tr": "Giriş ücretli; sel/buz/bakım nedeniyle ani kapanma olabilir.",
+      "source_url": "https://www.oberstdorf.de/en/summer/hiking/at-mid-altitude/hike-breitachklamm.html",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Breitachklamm Oberstdorf",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 47.384,
+        "longitude": 10.226,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "EUR",
+        "unit": "private_room_per_night_2_people_total",
+        "min_eur": 85,
+        "max_eur": 160,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": false
+      },
+      "notes_tr": "Konaklama aralığı kişi başı değil, iki kişi için tek oda/gece tahmini. Ulaşım, yemek ve lift/park ücretleri hariç.",
+      "estimated_moving_hours": 1.3,
+      "effort_index": 5.6,
+      "difficulty_by_effort": "easy"
+    },
+    {
+      "id": "eibsee-rundweg",
+      "name": "Eibsee Göl Çevresi",
+      "country": "DE",
+      "area": "me",
+      "region": "munich",
+      "base_town": "Grainau / Garmisch-Partenkirchen",
+      "lat": 47.456,
+      "lon": 10.99,
+      "distance_km": 7.2,
+      "elevation_gain_m": 50,
+      "metric_status": "published_variant",
+      "months_possible": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "months_best": [
+        5,
+        6,
+        9,
+        10
+      ],
+      "winter_designated": false,
+      "activities": [
+        "lake",
+        "alps",
+        "forest"
+      ],
+      "route_type": "loop_or_out_and_back_check_source",
+      "technical_risk": "ordinary_trail",
+      "season_warning_tr": "Kışın göl etrafında buzlanma; buz üstüne çıkmayın.",
+      "source_url": "https://www.zugspitz-region.de/tour/eibsee-rundweg",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Eibsee Zugspitze",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 47.456,
+        "longitude": 10.99,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "EUR",
+        "unit": "private_room_per_night_2_people_total",
+        "min_eur": 85,
+        "max_eur": 160,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": false
+      },
+      "notes_tr": "Konaklama aralığı kişi başı değil, iki kişi için tek oda/gece tahmini. Ulaşım, yemek ve lift/park ücretleri hariç.",
+      "estimated_moving_hours": 1.9,
+      "effort_index": 7.7,
+      "difficulty_by_effort": "easy"
+    },
+    {
+      "id": "andechs-kiental",
+      "name": "Herrsching → Andechs (Kiental turu)",
+      "country": "DE",
+      "area": "me",
+      "region": "munich",
+      "base_town": "Herrsching / Ammersee",
+      "lat": 47.998,
+      "lon": 11.178,
+      "distance_km": 11.75,
+      "elevation_gain_m": 223,
+      "metric_status": "published_variant",
+      "months_possible": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "months_best": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "winter_designated": false,
+      "activities": [
+        "lake",
+        "forest",
+        "monastery"
+      ],
+      "route_type": "point_to_point",
+      "technical_risk": "ordinary_trail",
+      "season_warning_tr": "Martta gölgeli boğaz kısmı buzlu olabilir.",
+      "source_url": "https://www.starnbergammersee.de/detail/id%3D6075b83bd8fb501ac55de386",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Kloster Andechs Ammersee",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 47.998,
+        "longitude": 11.178,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "EUR",
+        "unit": "private_room_per_night_2_people_total",
+        "min_eur": 85,
+        "max_eur": 160,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": false
+      },
+      "notes_tr": "Konaklama aralığı kişi başı değil, iki kişi için tek oda/gece tahmini. Ulaşım, yemek ve lift/park ücretleri hariç.",
+      "estimated_moving_hours": 3.4,
+      "effort_index": 14.0,
+      "difficulty_by_effort": "moderate"
+    },
+    {
+      "id": "jenner-priesbergalm",
+      "name": "Jenner Königsweg → Priesbergalm",
+      "country": "DE",
+      "area": "me",
+      "region": "munich",
+      "base_town": "Berchtesgaden / Hinterbrand",
+      "lat": 47.599,
+      "lon": 13.017,
+      "distance_km": null,
+      "elevation_gain_m": null,
+      "metric_status": "partial",
+      "months_possible": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "months_best": [
+        6,
+        7,
+        9
+      ],
+      "winter_designated": false,
+      "activities": [
+        "alps",
+        "hut",
+        "view"
+      ],
+      "route_type": "point_to_point",
+      "technical_risk": "seasonal_alpine",
+      "season_warning_tr": "Alp çayırları ve yokuşlar; Mayısta kar kalabilir.",
+      "source_url": "https://www.berchtesgaden.de/en/touren/ueber-den-koenigsweg-am-jenner-zur-priesbergalm",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Priesbergalm Königssee Jenner",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 47.599,
+        "longitude": 13.017,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "EUR",
+        "unit": "private_room_per_night_2_people_total",
+        "min_eur": 85,
+        "max_eur": 160,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": false
+      },
+      "notes_tr": "Konaklama aralığı kişi başı değil, iki kişi için tek oda/gece tahmini. Ulaşım, yemek ve lift/park ücretleri hariç.",
+      "estimated_moving_hours": null,
+      "effort_index": null,
+      "difficulty_by_effort": "needs_elevation_or_distance"
+    },
+    {
+      "id": "koenigssee-malerwinkel",
+      "name": "Königssee Malerwinkel",
+      "country": "DE",
+      "area": "me",
+      "region": "munich",
+      "base_town": "Schönau am Königssee",
+      "lat": 47.591,
+      "lon": 12.986,
+      "distance_km": 3.0,
+      "elevation_gain_m": 80,
+      "metric_status": "published_variant",
+      "months_possible": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "months_best": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "winter_designated": false,
+      "activities": [
+        "lake",
+        "view",
+        "alps"
+      ],
+      "route_type": "loop_or_out_and_back_check_source",
+      "technical_risk": "ordinary_trail",
+      "season_warning_tr": "Kısa yürüyüş; çevrede başka açık patikalarla birleştirilebilir.",
+      "source_url": "https://www.berchtesgaden.de/",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Malerwinkel Königssee",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 47.591,
+        "longitude": 12.986,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "EUR",
+        "unit": "private_room_per_night_2_people_total",
+        "min_eur": 85,
+        "max_eur": 160,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": false
+      },
+      "notes_tr": "Konaklama aralığı kişi başı değil, iki kişi için tek oda/gece tahmini. Ulaşım, yemek ve lift/park ücretleri hariç.",
+      "estimated_moving_hours": 0.9,
+      "effort_index": 3.8,
+      "difficulty_by_effort": "easy"
+    },
+    {
+      "id": "neureuth",
+      "name": "Neureuth Panorama (Tegernsee)",
+      "country": "DE",
+      "area": "me",
+      "region": "munich",
+      "base_town": "Tegernsee",
+      "lat": 47.733,
+      "lon": 11.759,
+      "distance_km": 10.4,
+      "elevation_gain_m": null,
+      "metric_status": "partial",
+      "months_possible": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "months_best": [
+        5,
+        6,
+        9,
+        10
+      ],
+      "winter_designated": false,
+      "activities": [
+        "alps",
+        "view",
+        "hut"
+      ],
+      "route_type": "loop_or_out_and_back_check_source",
+      "technical_risk": "seasonal_alpine",
+      "season_warning_tr": "Kışın özel işaretli kış rotası mümkündür, yaz varyantını kar altında takip etmeyin.",
+      "source_url": "https://www.tegernsee.com/winterwandern/2",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Neureuth Tegernsee panorama",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 47.733,
+        "longitude": 11.759,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "EUR",
+        "unit": "private_room_per_night_2_people_total",
+        "min_eur": 85,
+        "max_eur": 160,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": false
+      },
+      "notes_tr": "Konaklama aralığı kişi başı değil, iki kişi için tek oda/gece tahmini. Ulaşım, yemek ve lift/park ücretleri hariç.",
+      "estimated_moving_hours": 2.6,
+      "effort_index": null,
+      "difficulty_by_effort": "needs_elevation_or_distance"
+    },
+    {
+      "id": "partnachklamm",
+      "name": "Partnachklamm + Graseck çevresi",
+      "country": "DE",
+      "area": "me",
+      "region": "munich",
+      "base_town": "Garmisch-Partenkirchen",
+      "lat": 47.478,
+      "lon": 11.119,
+      "distance_km": 7.5,
+      "elevation_gain_m": null,
+      "metric_status": "partial",
+      "months_possible": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "months_best": [
+        5,
+        6,
+        9
+      ],
+      "winter_designated": false,
+      "activities": [
+        "gorge",
+        "forest",
+        "alps"
+      ],
+      "route_type": "loop_or_out_and_back_check_source",
+      "technical_risk": "ordinary_trail",
+      "season_warning_tr": "Boğaz mevsimlik kapanabilir; sel ve buz koşullarında giriş yok.",
+      "source_url": "https://www.gapa-tourismus.de/",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Partnachklamm Garmisch",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 47.478,
+        "longitude": 11.119,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "EUR",
+        "unit": "private_room_per_night_2_people_total",
+        "min_eur": 85,
+        "max_eur": 160,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": false
+      },
+      "notes_tr": "Konaklama aralığı kişi başı değil, iki kişi için tek oda/gece tahmini. Ulaşım, yemek ve lift/park ücretleri hariç.",
+      "estimated_moving_hours": 1.9,
+      "effort_index": null,
+      "difficulty_by_effort": "needs_elevation_or_distance"
+    },
+    {
+      "id": "riederstein",
+      "name": "Riederstein Kapelle / Baumgartenschneid bölgesi",
+      "country": "DE",
+      "area": "me",
+      "region": "munich",
+      "base_town": "Tegernsee",
+      "lat": 47.717,
+      "lon": 11.763,
+      "distance_km": 12.5,
+      "elevation_gain_m": 750,
+      "metric_status": "estimate",
+      "months_possible": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "months_best": [
+        6,
+        7,
+        9
+      ],
+      "winter_designated": false,
+      "activities": [
+        "alps",
+        "summit",
+        "view"
+      ],
+      "route_type": "loop_or_out_and_back_check_source",
+      "technical_risk": "seasonal_alpine",
+      "season_warning_tr": "Bu mesafe ve tırmanış seçilen varyant için yaklaşık; Nisan'da kar olasılığı yüksek.",
+      "source_url": "https://www.tegernsee.com/",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Riederstein Kapelle Baumgartenschneid",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 47.717,
+        "longitude": 11.763,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "EUR",
+        "unit": "private_room_per_night_2_people_total",
+        "min_eur": 85,
+        "max_eur": 160,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": false
+      },
+      "notes_tr": "Konaklama aralığı kişi başı değil, iki kişi için tek oda/gece tahmini. Ulaşım, yemek ve lift/park ücretleri hariç.",
+      "estimated_moving_hours": 4.6,
+      "effort_index": 20.0,
+      "difficulty_by_effort": "moderate"
+    },
+    {
+      "id": "seefeld-wiesenweg",
+      "name": "Leutasch Wiesenweg Winterwanderung",
+      "country": "AT",
+      "area": "alps_at",
+      "region": "austrian_alps",
+      "base_town": "Leutasch / Seefeld",
+      "lat": 47.37,
+      "lon": 11.163,
+      "distance_km": null,
+      "elevation_gain_m": null,
+      "metric_status": "partial",
+      "months_possible": [
+        1,
+        2,
+        3,
+        12
+      ],
+      "months_best": [
+        1,
+        2,
+        12
+      ],
+      "winter_designated": true,
+      "activities": [
+        "winter",
+        "forest",
+        "alps"
+      ],
+      "route_type": "loop_or_out_and_back_check_source",
+      "technical_risk": "seasonal_alpine",
+      "season_warning_tr": "Bakımı yapılan kış yürüyüş yolu; günlük kar temizleme durumunu kontrol edin.",
+      "source_url": "https://www.tirol.at/aktivitaeten/sport/winterwandern/winterwanderungen/winterrundwanderung-auf-dem-wiesenweg",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Leutasch winter hiking snowy valley",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 47.37,
+        "longitude": 11.163,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "EUR",
+        "unit": "private_room_per_night_2_people_total",
+        "min_eur": 95,
+        "max_eur": 180,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": true
+      },
+      "notes_tr": "Konaklama aralığı kişi başı değil, iki kişi için tek oda/gece tahmini. Ulaşım, yemek ve lift/park ücretleri hariç.",
+      "estimated_moving_hours": null,
+      "effort_index": null,
+      "difficulty_by_effort": "needs_elevation_or_distance"
+    },
+    {
+      "id": "leutascher-geisterklamm",
+      "name": "Leutascher Geisterklamm",
+      "country": "AT",
+      "area": "alps_at",
+      "region": "austrian_alps",
+      "base_town": "Leutasch / Mittenwald",
+      "lat": 47.422,
+      "lon": 11.224,
+      "distance_km": null,
+      "elevation_gain_m": null,
+      "metric_status": "partial",
+      "months_possible": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "months_best": [
+        5,
+        6,
+        9
+      ],
+      "winter_designated": false,
+      "activities": [
+        "gorge",
+        "forest",
+        "bridge"
+      ],
+      "route_type": "loop_or_out_and_back_check_source",
+      "technical_risk": "seasonal_alpine",
+      "season_warning_tr": "Genellikle Mayıs–Kasım ortası arası; mevsimlik açılış tarihi kontrolü şart.",
+      "source_url": "https://www.tirol.at/aktivitaeten/sport/wandern/wandertouren/leutascher-geisterklamm",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Leutascher Geisterklamm bridge",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 47.422,
+        "longitude": 11.224,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "EUR",
+        "unit": "private_room_per_night_2_people_total",
+        "min_eur": 95,
+        "max_eur": 180,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": true
+      },
+      "notes_tr": "Konaklama aralığı kişi başı değil, iki kişi için tek oda/gece tahmini. Ulaşım, yemek ve lift/park ücretleri hariç.",
+      "estimated_moving_hours": null,
+      "effort_index": null,
+      "difficulty_by_effort": "needs_elevation_or_distance"
+    },
+    {
+      "id": "leutasch-winter-etappe",
+      "name": "Leutaschtal Winterweitwanderweg: Etappe 3",
+      "country": "AT",
+      "area": "alps_at",
+      "region": "austrian_alps",
+      "base_town": "Leutasch",
+      "lat": 47.363,
+      "lon": 11.151,
+      "distance_km": 14.2,
+      "elevation_gain_m": null,
+      "metric_status": "partial",
+      "months_possible": [
+        1,
+        2,
+        3,
+        12
+      ],
+      "months_best": [
+        1,
+        2,
+        12
+      ],
+      "winter_designated": true,
+      "activities": [
+        "winter",
+        "valley",
+        "alps"
+      ],
+      "route_type": "point_to_point",
+      "technical_risk": "seasonal_alpine",
+      "season_warning_tr": "Kış için işaretli etap, tek yön olabilir; başlangıç/bitiş otobüslerini kontrol edin.",
+      "source_url": "https://www.tirol.at/aktivitaeten/sport/winterwandern/winterwanderungen/etappe-3-von-burggraben-durch-das-leutaschtal-nach-weidach-seefelder-hochplateau-winterwei",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Leutaschtal winter walking Austria",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 47.363,
+        "longitude": 11.151,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "EUR",
+        "unit": "private_room_per_night_2_people_total",
+        "min_eur": 95,
+        "max_eur": 180,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": true
+      },
+      "notes_tr": "Konaklama aralığı kişi başı değil, iki kişi için tek oda/gece tahmini. Ulaşım, yemek ve lift/park ücretleri hariç.",
+      "estimated_moving_hours": 3.5,
+      "effort_index": null,
+      "difficulty_by_effort": "needs_elevation_or_distance"
+    },
+    {
+      "id": "plansee-rundweg",
+      "name": "Plansee Panorama Rundwanderung",
+      "country": "AT",
+      "area": "alps_at",
+      "region": "austrian_alps",
+      "base_town": "Reutte / Plansee",
+      "lat": 47.479,
+      "lon": 10.84,
+      "distance_km": null,
+      "elevation_gain_m": null,
+      "metric_status": "partial",
+      "months_possible": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "months_best": [
+        6,
+        7,
+        9
+      ],
+      "winter_designated": false,
+      "activities": [
+        "lake",
+        "alps",
+        "forest"
+      ],
+      "route_type": "loop_or_out_and_back_check_source",
+      "technical_risk": "seasonal_alpine",
+      "season_warning_tr": "Göl kenarında kaygan kök ve dar kesimler; kışın yaz rotasını önermiyorum.",
+      "source_url": "https://www.tirol.at/aktivitaeten/sport/wandern/wandertouren/rundwanderung-um-den-plansee",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Plansee Tirol hiking",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 47.479,
+        "longitude": 10.84,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "EUR",
+        "unit": "private_room_per_night_2_people_total",
+        "min_eur": 95,
+        "max_eur": 180,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": true
+      },
+      "notes_tr": "Konaklama aralığı kişi başı değil, iki kişi için tek oda/gece tahmini. Ulaşım, yemek ve lift/park ücretleri hariç.",
+      "estimated_moving_hours": null,
+      "effort_index": null,
+      "difficulty_by_effort": "needs_elevation_or_distance"
+    },
+    {
+      "id": "rofan-rofanspitze",
+      "name": "Rofanspitze",
+      "country": "AT",
+      "area": "alps_at",
+      "region": "austrian_alps",
+      "base_town": "Maurach / Achensee",
+      "lat": 47.44,
+      "lon": 11.765,
+      "distance_km": null,
+      "elevation_gain_m": null,
+      "metric_status": "partial",
+      "months_possible": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "months_best": [
+        7,
+        8,
+        9
+      ],
+      "winter_designated": false,
+      "activities": [
+        "alpine",
+        "summit",
+        "view"
+      ],
+      "route_type": "loop_or_out_and_back_check_source",
+      "technical_risk": "seasonal_alpine",
+      "season_warning_tr": "Teleferik sezonu ve yüksek rakımda kar durumuna bakılmalı.",
+      "source_url": "https://www.tirol.at/aktivitaeten/sport/wandern/wandertouren/rofanspitze",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Rofanspitze Achensee Tirol",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 47.44,
+        "longitude": 11.765,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "EUR",
+        "unit": "private_room_per_night_2_people_total",
+        "min_eur": 95,
+        "max_eur": 180,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": true
+      },
+      "notes_tr": "Konaklama aralığı kişi başı değil, iki kişi için tek oda/gece tahmini. Ulaşım, yemek ve lift/park ücretleri hariç.",
+      "estimated_moving_hours": null,
+      "effort_index": null,
+      "difficulty_by_effort": "needs_elevation_or_distance"
+    },
+    {
+      "id": "seebensee-drachensee",
+      "name": "Seebensee → Coburger Hütte → Drachensee",
+      "country": "AT",
+      "area": "alps_at",
+      "region": "austrian_alps",
+      "base_town": "Ehrwald",
+      "lat": 47.353,
+      "lon": 10.933,
+      "distance_km": null,
+      "elevation_gain_m": null,
+      "metric_status": "partial",
+      "months_possible": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "months_best": [
+        7,
+        8
+      ],
+      "winter_designated": false,
+      "activities": [
+        "alpine",
+        "lake",
+        "hut"
+      ],
+      "route_type": "point_to_point",
+      "technical_risk": "exposure",
+      "season_warning_tr": "İp destekli kaya kesimleri olabilir; kar, çığ ve kapanış açısından Haziran bile erken olabilir.",
+      "source_url": "https://www.tyrol.com/activities/sport/hiking/hiking-tours/ehrwald-seebensee-coburger-huette",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Seebensee Drachensee Coburger Hütte",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 47.353,
+        "longitude": 10.933,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "EUR",
+        "unit": "private_room_per_night_2_people_total",
+        "min_eur": 95,
+        "max_eur": 180,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": true
+      },
+      "notes_tr": "Konaklama aralığı kişi başı değil, iki kişi için tek oda/gece tahmini. Ulaşım, yemek ve lift/park ücretleri hariç.",
+      "estimated_moving_hours": null,
+      "effort_index": null,
+      "difficulty_by_effort": "needs_elevation_or_distance"
+    },
+    {
+      "id": "adolf-munkel",
+      "name": "Adolf-Munkel-Weg (Zans başlangıç)",
+      "country": "IT",
+      "area": "dolomites",
+      "region": "dolomites",
+      "base_town": "Villnöss / Zans",
+      "lat": 46.638,
+      "lon": 11.723,
+      "distance_km": 13.0,
+      "elevation_gain_m": null,
+      "metric_status": "partial",
+      "months_possible": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "months_best": [
+        6,
+        7,
+        9
+      ],
+      "winter_designated": false,
+      "activities": [
+        "dolomites",
+        "forest",
+        "hut"
+      ],
+      "route_type": "loop_or_out_and_back_check_source",
+      "technical_risk": "seasonal_alpine",
+      "season_warning_tr": "Resmî kaynak 13 km ve 4,5 saat verir. Kış kar ayakkabısı varyantı yaz rotasından farklıdır.",
+      "source_url": "https://www.suedtirol.info/de/de/erlebnisse-und-events/plp-erlebnisse/erlebnisse-sudtirol/pdp-erlebnisse.smgpoi84a3ede0ebe349019877d7c478965a60.adolf-munkel-weg.st--magdalena---villnoess",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Adolf Munkel Weg Geisleralm Odle",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 46.638,
+        "longitude": 11.723,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "EUR",
+        "unit": "private_room_per_night_2_people_total",
+        "min_eur": 120,
+        "max_eur": 230,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": true
+      },
+      "notes_tr": "Konaklama aralığı kişi başı değil, iki kişi için tek oda/gece tahmini. Ulaşım, yemek ve lift/park ücretleri hariç.",
+      "estimated_moving_hours": 3.2,
+      "effort_index": null,
+      "difficulty_by_effort": "needs_elevation_or_distance"
+    },
+    {
+      "id": "alpe-di-siusi",
+      "name": "Alpe di Siusi / Seiser Alm Meadow Walk",
+      "country": "IT",
+      "area": "dolomites",
+      "region": "dolomites",
+      "base_town": "Compatsch / Seiser Alm",
+      "lat": 46.541,
+      "lon": 11.621,
+      "distance_km": null,
+      "elevation_gain_m": null,
+      "metric_status": "partial",
+      "months_possible": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "months_best": [
+        6,
+        7,
+        9
+      ],
+      "winter_designated": false,
+      "activities": [
+        "dolomites",
+        "meadow",
+        "view"
+      ],
+      "route_type": "loop_or_out_and_back_check_source",
+      "technical_risk": "seasonal_alpine",
+      "season_warning_tr": "Birçok farklı loop var; teleferik/araç erişimi saat sınırlı olabilir.",
+      "source_url": "https://www.suedtirol.info/",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Alpe di Siusi Seiser Alm Dolomites meadow",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 46.541,
+        "longitude": 11.621,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "EUR",
+        "unit": "private_room_per_night_2_people_total",
+        "min_eur": 120,
+        "max_eur": 230,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": true
+      },
+      "notes_tr": "Konaklama aralığı kişi başı değil, iki kişi için tek oda/gece tahmini. Ulaşım, yemek ve lift/park ücretleri hariç.",
+      "estimated_moving_hours": null,
+      "effort_index": null,
+      "difficulty_by_effort": "needs_elevation_or_distance"
+    },
+    {
+      "id": "cinque-torri",
+      "name": "Cinque Torri Circuit",
+      "country": "IT",
+      "area": "dolomites",
+      "region": "dolomites",
+      "base_town": "Cortina d'Ampezzo",
+      "lat": 46.509,
+      "lon": 12.045,
+      "distance_km": null,
+      "elevation_gain_m": null,
+      "metric_status": "partial",
+      "months_possible": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "months_best": [
+        7,
+        8,
+        9
+      ],
+      "winter_designated": false,
+      "activities": [
+        "dolomites",
+        "rocks",
+        "history"
+      ],
+      "route_type": "loop_or_out_and_back_check_source",
+      "technical_risk": "seasonal_alpine",
+      "season_warning_tr": "Liftli/kısa ve uzun varyantlar var; Birinci Dünya Savaşı mevzileri görülebilir.",
+      "source_url": "https://dolomiteshike.it/en/migliori-escursioni/",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Cinque Torri Dolomites hiking",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 46.509,
+        "longitude": 12.045,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "EUR",
+        "unit": "private_room_per_night_2_people_total",
+        "min_eur": 120,
+        "max_eur": 230,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": true
+      },
+      "notes_tr": "Konaklama aralığı kişi başı değil, iki kişi için tek oda/gece tahmini. Ulaşım, yemek ve lift/park ücretleri hariç.",
+      "estimated_moving_hours": null,
+      "effort_index": null,
+      "difficulty_by_effort": "needs_elevation_or_distance"
+    },
+    {
+      "id": "lago-di-braies",
+      "name": "Lago di Braies (Pragser Wildsee) Loop",
+      "country": "IT",
+      "area": "dolomites",
+      "region": "dolomites",
+      "base_town": "Prags / Braies",
+      "lat": 46.694,
+      "lon": 12.086,
+      "distance_km": 3.5,
+      "elevation_gain_m": null,
+      "metric_status": "partial",
+      "months_possible": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "months_best": [
+        6,
+        7,
+        9,
+        10
+      ],
+      "winter_designated": false,
+      "activities": [
+        "dolomites",
+        "lake",
+        "short"
+      ],
+      "route_type": "loop_or_out_and_back_check_source",
+      "technical_risk": "seasonal_alpine",
+      "season_warning_tr": "Kısa ama ünlü; yaz araç erişim rezervasyonuna dikkat edin. Mayıs hâlâ buzlu olabilir.",
+      "source_url": "https://www.suedtirol.info/de/de/erlebnisse-und-events/plp-erlebnisse/erlebnisse-suedtirol/pdp-erlebnisse.smgpoi40863db5f33c488abd7e37dc2894f367.familienwanderung---rundwanderung-pragser-wildsee.ausserprags",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Lago di Braies Pragser Wildsee",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 46.694,
+        "longitude": 12.086,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "EUR",
+        "unit": "private_room_per_night_2_people_total",
+        "min_eur": 120,
+        "max_eur": 230,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": true
+      },
+      "notes_tr": "Konaklama aralığı kişi başı değil, iki kişi için tek oda/gece tahmini. Ulaşım, yemek ve lift/park ücretleri hariç.",
+      "estimated_moving_hours": 0.9,
+      "effort_index": null,
+      "difficulty_by_effort": "needs_elevation_or_distance"
+    },
+    {
+      "id": "lago-di-sorapis",
+      "name": "Lago di Sorapis via Passo Tre Croci",
+      "country": "IT",
+      "area": "dolomites",
+      "region": "dolomites",
+      "base_town": "Passo Tre Croci / Cortina",
+      "lat": 46.559,
+      "lon": 12.201,
+      "distance_km": null,
+      "elevation_gain_m": null,
+      "metric_status": "partial",
+      "months_possible": [
+        7,
+        8,
+        9
+      ],
+      "months_best": [
+        7,
+        8,
+        9
+      ],
+      "winter_designated": false,
+      "activities": [
+        "dolomites",
+        "lake",
+        "exposure"
+      ],
+      "route_type": "loop_or_out_and_back_check_source",
+      "technical_risk": "exposure",
+      "season_warning_tr": "Dar, bazı ipli geçişler var; yükseklik korkusu ve kötü havaya uygun değil.",
+      "source_url": "https://dolomiteshike.it/en/migliori-escursioni/",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Lago di Sorapis turquoise lake",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 46.559,
+        "longitude": 12.201,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "EUR",
+        "unit": "private_room_per_night_2_people_total",
+        "min_eur": 120,
+        "max_eur": 230,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": true
+      },
+      "notes_tr": "Konaklama aralığı kişi başı değil, iki kişi için tek oda/gece tahmini. Ulaşım, yemek ve lift/park ücretleri hariç.",
+      "estimated_moving_hours": null,
+      "effort_index": null,
+      "difficulty_by_effort": "needs_elevation_or_distance"
+    },
+    {
+      "id": "sassolungo-loop",
+      "name": "Sassolungo / Langkofel Circuit",
+      "country": "IT",
+      "area": "dolomites",
+      "region": "dolomites",
+      "base_town": "Passo Sella",
+      "lat": 46.509,
+      "lon": 11.759,
+      "distance_km": null,
+      "elevation_gain_m": null,
+      "metric_status": "partial",
+      "months_possible": [
+        7,
+        8,
+        9
+      ],
+      "months_best": [
+        7,
+        8,
+        9
+      ],
+      "winter_designated": false,
+      "activities": [
+        "dolomites",
+        "alpine",
+        "challenging"
+      ],
+      "route_type": "loop_or_out_and_back_check_source",
+      "technical_risk": "exposure",
+      "season_warning_tr": "Taşlık ve yorucu uzun alp rotası; erken/son sezon karına uygun değil.",
+      "source_url": "https://www.ledolomiti.it/en/activities/trekking",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Sassolungo Langkofel hiking Passo Sella",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 46.509,
+        "longitude": 11.759,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "EUR",
+        "unit": "private_room_per_night_2_people_total",
+        "min_eur": 120,
+        "max_eur": 230,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": true
+      },
+      "notes_tr": "Konaklama aralığı kişi başı değil, iki kişi için tek oda/gece tahmini. Ulaşım, yemek ve lift/park ücretleri hariç.",
+      "estimated_moving_hours": null,
+      "effort_index": null,
+      "difficulty_by_effort": "needs_elevation_or_distance"
+    },
+    {
+      "id": "seceda-ridge",
+      "name": "Seceda Ridge Walk (liftli varyant)",
+      "country": "IT",
+      "area": "dolomites",
+      "region": "dolomites",
+      "base_town": "Ortisei / Val Gardena",
+      "lat": 46.597,
+      "lon": 11.724,
+      "distance_km": null,
+      "elevation_gain_m": null,
+      "metric_status": "partial",
+      "months_possible": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "months_best": [
+        7,
+        8,
+        9
+      ],
+      "winter_designated": false,
+      "activities": [
+        "dolomites",
+        "ridge",
+        "view"
+      ],
+      "route_type": "loop_or_out_and_back_check_source",
+      "technical_risk": "seasonal_alpine",
+      "season_warning_tr": "Teleferik kullanımı ve turun seçilen varyantı km/yükselişi değiştirir; uçurum kenarından uzak durun.",
+      "source_url": "https://www.ledolomiti.it/en/trails/by-duration/giornata-intera",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Seceda Odle ridgeline Dolomites",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 46.597,
+        "longitude": 11.724,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "EUR",
+        "unit": "private_room_per_night_2_people_total",
+        "min_eur": 120,
+        "max_eur": 230,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": true
+      },
+      "notes_tr": "Konaklama aralığı kişi başı değil, iki kişi için tek oda/gece tahmini. Ulaşım, yemek ve lift/park ücretleri hariç.",
+      "estimated_moving_hours": null,
+      "effort_index": null,
+      "difficulty_by_effort": "needs_elevation_or_distance"
+    },
+    {
+      "id": "tre-cime-loop",
+      "name": "Tre Cime di Lavaredo (Drei Zinnen) Circuit",
+      "country": "IT",
+      "area": "dolomites",
+      "region": "dolomites",
+      "base_town": "Misurina / Rifugio Auronzo",
+      "lat": 46.613,
+      "lon": 12.295,
+      "distance_km": 10.0,
+      "elevation_gain_m": 400,
+      "metric_status": "published_variant",
+      "months_possible": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "months_best": [
+        7,
+        8,
+        9
+      ],
+      "winter_designated": false,
+      "activities": [
+        "dolomites",
+        "alpine",
+        "iconic"
+      ],
+      "route_type": "loop_or_out_and_back_check_source",
+      "technical_risk": "seasonal_alpine",
+      "season_warning_tr": "Auronzo ücretli yolu rezervasyon/ücret ve sezon koşullarına bağlı; Haziran başında kar bulunabilir.",
+      "source_url": "https://www.suedtirol.info/de/de/erlebnisse-und-events/natur/dolomiten/drei-zinnen-rundwanderung",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Tre Cime di Lavaredo Rifugio Locatelli",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 46.613,
+        "longitude": 12.295,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "EUR",
+        "unit": "private_room_per_night_2_people_total",
+        "min_eur": 120,
+        "max_eur": 230,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": true
+      },
+      "notes_tr": "Konaklama aralığı kişi başı değil, iki kişi için tek oda/gece tahmini. Ulaşım, yemek ve lift/park ücretleri hariç.",
+      "estimated_moving_hours": 3.3,
+      "effort_index": 14.0,
+      "difficulty_by_effort": "moderate"
+    },
+    {
+      "id": "lago-di-molveno",
+      "name": "Lago di Molveno Lakeside Walk",
+      "country": "IT",
+      "area": "italy_other",
+      "region": "northern_italy",
+      "base_town": "Molveno / Trentino",
+      "lat": 46.146,
+      "lon": 10.969,
+      "distance_km": null,
+      "elevation_gain_m": null,
+      "metric_status": "partial",
+      "months_possible": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "months_best": [
+        5,
+        6,
+        9,
+        10
+      ],
+      "winter_designated": false,
+      "activities": [
+        "lake",
+        "forest",
+        "dolomites"
+      ],
+      "route_type": "loop_or_out_and_back_check_source",
+      "technical_risk": "ordinary_trail",
+      "season_warning_tr": "Göl kıyısındaki seçilen varyanta göre mesafe değişir; yüksek dağ rotası değildir.",
+      "source_url": "https://www.visittrentino.info/",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Lago di Molveno Brenta Dolomites",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 46.146,
+        "longitude": 10.969,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "EUR",
+        "unit": "private_room_per_night_2_people_total",
+        "min_eur": 85,
+        "max_eur": 170,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": true
+      },
+      "notes_tr": "Konaklama aralığı kişi başı değil, iki kişi için tek oda/gece tahmini. Ulaşım, yemek ve lift/park ücretleri hariç.",
+      "estimated_moving_hours": null,
+      "effort_index": null,
+      "difficulty_by_effort": "needs_elevation_or_distance"
+    },
+    {
+      "id": "lago-di-tovel",
+      "name": "Lago di Tovel Lakeside Loop",
+      "country": "IT",
+      "area": "italy_other",
+      "region": "northern_italy",
+      "base_town": "Val di Non / Trentino",
+      "lat": 46.262,
+      "lon": 10.947,
+      "distance_km": null,
+      "elevation_gain_m": null,
+      "metric_status": "partial",
+      "months_possible": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "months_best": [
+        5,
+        6,
+        9,
+        10
+      ],
+      "winter_designated": false,
+      "activities": [
+        "lake",
+        "forest"
+      ],
+      "route_type": "loop_or_out_and_back_check_source",
+      "technical_risk": "ordinary_trail",
+      "season_warning_tr": "Daha sakin göl manzarası; yol ve otopark erişimi sezonluk olabilir.",
+      "source_url": "https://www.visittrentino.info/",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Lago di Tovel Trentino",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 46.262,
+        "longitude": 10.947,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "EUR",
+        "unit": "private_room_per_night_2_people_total",
+        "min_eur": 85,
+        "max_eur": 170,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": true
+      },
+      "notes_tr": "Konaklama aralığı kişi başı değil, iki kişi için tek oda/gece tahmini. Ulaşım, yemek ve lift/park ücretleri hariç.",
+      "estimated_moving_hours": null,
+      "effort_index": null,
+      "difficulty_by_effort": "needs_elevation_or_distance"
+    },
+    {
+      "id": "merano-waalweg",
+      "name": "Marlinger Waalweg",
+      "country": "IT",
+      "area": "italy_other",
+      "region": "northern_italy",
+      "base_town": "Marling / Merano",
+      "lat": 46.646,
+      "lon": 11.142,
+      "distance_km": null,
+      "elevation_gain_m": null,
+      "metric_status": "partial",
+      "months_possible": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "months_best": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "winter_designated": false,
+      "activities": [
+        "vineyards",
+        "valley",
+        "water"
+      ],
+      "route_type": "loop_or_out_and_back_check_source",
+      "technical_risk": "ordinary_trail",
+      "season_warning_tr": "Düşük rakımlı kanal boyunca bahar ve sonbaharda uygun yürüyüş.",
+      "source_url": "https://www.suedtirol.info/",
+      "photo": {
+        "mode": "commons_search",
+        "query": "Marlinger Waalweg Merano",
+        "verified_license": false,
+        "image_url": null,
+        "credit": null
+      },
+      "map": {
+        "type": "trailhead_marker",
+        "latitude": 46.646,
+        "longitude": 11.142,
+        "geometry_geojson": null,
+        "geometry_verified": false
+      },
+      "lodging": {
+        "currency": "EUR",
+        "unit": "private_room_per_night_2_people_total",
+        "min_eur": 85,
+        "max_eur": 170,
+        "estimate_only": true,
+        "live_quote": false,
+        "overnight_recommended_for_trip": true
+      },
+      "notes_tr": "Konaklama aralığı kişi başı değil, iki kişi için tek oda/gece tahmini. Ulaşım, yemek ve lift/park ücretleri hariç.",
+      "estimated_moving_hours": null,
+      "effort_index": null,
+      "difficulty_by_effort": "needs_elevation_or_distance"
+    }
+  ]
+}
